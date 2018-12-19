@@ -1,0 +1,15 @@
+# eureka first
+spring.application.name=spring-cloud-eureka
+spring.profiles=peer1
+
+server.port=8000
+eureka.instance.hostname=peer1
+eureka.client.register-with-eureka=false
+eureka.client.fetch-registry=false
+eureka.client.serviceUrl.defaultZone=http://localhost:${server.port}/eureka/
+
+
+
+
+# second
+#spring.application.name=spring
